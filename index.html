@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo-icon.ico" type="image/x-icon">
+    <title>URL Shortener</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="body-wrp">
+
+        <!-- navbar start -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+              <a class="navbar-brand logo" href="index.html">
+                <img src="img/logo.png" alt="Logo">
+              </a>
+              <div class="" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <div class="nav-btn">
+                        <a class="nav-link active" aria-current="page" href="#short">Get Started</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <!-- navbar end -->
+
+        <!-- Banner Start -->
+        <section id="banner">
+                <div class="banner-txt">
+                    <div class="container">
+                        <div class="bn-wrp">
+                            <div class="bn-left wow slideInLeft">
+                                <h1><span>URL</span> Shortener</h1>
+                                <p>ShortURL allows to shorten long links from <a href="https://www.instagram.com/" target="_blank">Instagram</a>, <a href="https://www.facebook.com/" target="_blank">Facebook</a>, <a href="https://www.youtube.com/" target="_blank">YouTube</a>, <a href="https://www.twitter.com/" target="_blank">Twitter</a>, <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>, <a href="https://www.whatsapp.com/" target="_blank">WhatsApp</a>, <a href="https://www.tiktok.com/" target="_blank">TikTok</a>, blogs and sites. Just paste the long URL and click the Shorten URL button. On the next page, copy the shortened URL and share it on sites, chat and emails.</p>
+                                <div class="bn-btn">
+                                  <a href="#short">Short Link</a>
+                                </div>
+                            </div>
+                            <div class="bn-right wow slideInRight">
+                              <div class="bn-ani1">
+                                <lottie-player src="json/banner.json" background="transparent" speed="1" style="width: 500px; height: 500px" loop autoplay direction="1" mode="normal"></lottie-player>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scroll">
+                  <a href="#short">
+                    <lottie-player src="json/scroll.json" background="transparent" speed="1" style="width: 50px; height: 50px" loop autoplay direction="1" mode="normal"></lottie-player>
+                  </a>
+                </div>
+        </section>
+        <!-- Banner end -->
+
+        <!-- Short Start -->
+        <section id="short">
+          <div class="container">
+            <div class="short-box wow slideInLeft">
+              <h2>Past Long links to short</h2>
+              <div class="box">
+                  <input type="text" id="longurl" placeholder="Shorten a Link Here...">
+                  <button type="submit" id="shorten">Shorten</button>
+                  <input type="text" id="shorturl">
+                  <button type="submit" id="copy">Copy</button>
+                </div>
+              <div id="stat">
+                <p>Link Copied to clipboard</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Short end -->
+
+        <!-- Cart Start -->
+        <section id="cart">
+          <div class="container">
+            <div class="cart-wrp">
+              <div class="cart-single wow slideInLeft">
+                <lottie-player src="json/like.json" background="transparent" speed="1" style="width: 140px; height: 140px" loop autoplay direction="1" mode="normal"></lottie-player>
+                <h3>Easy</h3>
+                <p>ShortURL is easy and fast, enter the long link to get your shortened link</p>
+              </div>
+              <div class="cart-single wow slideInDown">
+                <lottie-player src="json/link.json" background="transparent" speed="1" style="width: 140px; height: 140px" loop autoplay direction="1" mode="normal"></lottie-player>
+                <h3>Shortened</h3>
+                <p>Use any link, no matter what size, ShortURL always shortens</p>
+              </div>
+              <div class="cart-single wow slideInRight">
+                <lottie-player src="json/sec.json" background="transparent" speed="1" style="width: 140px; height: 140px" loop autoplay direction="1" mode="normal"></lottie-player>
+                <h3>Secure</h3>
+                <p>It is fast and secure, our service has HTTPS protocol and data encryption</p>
+              </div>
+              <div class="cart-single wow slideInLeft">
+                <lottie-player src="json/stat.json" background="transparent" speed="1" style="width: 140px; height: 140px" loop autoplay direction="1" mode="normal"></lottie-player>
+                <h3>Statistics</h3>
+                <p>Check the number of clicks that your shortened URL received</p>
+              </div>
+              <div class="cart-single wow slideInDown">
+                <lottie-player src="json/hand.json" background="transparent" speed="1" style="width: 140px; height: 140px" loop autoplay direction="1" mode="normal"></lottie-player>
+                <h3>Reliable</h3>
+                <p>All links that try to disseminate spam, viruses and malware are deleted</p>
+              </div>
+              <div class="cart-single wow slideInRight">
+                <lottie-player src="json/device.json" background="transparent" speed="1" style="width: 140px; height: 140px" loop autoplay direction="1" mode="normal"></lottie-player>
+                <h3>Devices</h3>
+                <p>Compatible with smartphones, tablets and desktop</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Cart end -->
+
+        <!-- Copyright Start -->
+        <section id="copyright">
+          <p>Developed and Designed by <a href="https://dev-mojammel-hosain.github.io/jisan/" target="_blank">Mojammel Jisan</a> © 2023</p>
+        </section>
+        <!-- Copyright end -->
+
+    </div>
+    <script src="js/lottie-player.js"></script>
+    <script src="js/copy.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
